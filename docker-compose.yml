@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  landing-service:
+    build: .
+    container_name: landing-service
+    restart: always
+    ports:
+      - "8084:8080"
